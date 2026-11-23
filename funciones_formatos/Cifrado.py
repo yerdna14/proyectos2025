@@ -52,7 +52,7 @@ def a1z27(txt):
             final.append(resultado[i])
             i += 1
     
-    return " ".join(final)  # Usar espacio para separar grupos
+    return "".join(final)  # Usar espacio para separar grupos
 
 # Programa principal
 print("🔐 CIFRADOR (Atbash + A1Z27 con -)")

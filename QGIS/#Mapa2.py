@@ -5,109 +5,114 @@
 
 region = 'Latin America & Caribbean'
 subregion = 'South America'
-codigos_dep = ['20'] #76
-codigomdep = ['20'] #76
-codigos_muni = ['20550'] #18753, 76109
+codigos_dep = ['47'] #76
+codigomdep = ['47'] #76
+codigos_muni = ['47745'] #18753, 76109
 cpais = ['COL']
 
 
 
 # Lista de nombres de capas a procesar
 nombres_capas = ['OpenStreetMap', 'oceano', 'regiones_seleccionados', 'paises_seleccionados', 'departamentos', 'departamentos_seleccionados', 'MunicipiosDep2', 'municipios_seleccionados', 'Ecosis 2024', 'Ecosis 2018', 'Cobertura 2020', 'Cobertura 2018', 'PAmoya', 'Pag', 'Pajorg', 'Pamoj', 'paramos', 'Pazap', 'RFAmazona1', 'RFAmazona2', 'RFCentral', 'RFMagda', 'RFMol', 'RFPacifico', 'RFSierra', 'ambitos', 'forestal', 'paz', 'zonip', 'autoridades', 'humedales', 'seco', 'ramsar', 'pomcas', 'manglares', 'parques', 'priocon', 'zoniparques', 'Pacgsm', 'Cienagas', 'rios1', 'lagunas', 'pantanos', 'biosfera', 'hipso', 'vias', 'vias2', 'hidro', 'manzana', 'linea', 'nomenclatura', 'otrli', 'cultu', 'uacs', 'recuperacion_cortada', 'rehabilitacion_cortada', 'restauracion_cortada', 'marinos', 'coral', 'rocosoo', 'prioc', 'priop', 'campesinas', 'cienaga', 'cinturon', 'tuparro', 'sierra', 'seaflower', 'nsm']
-oceano_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Zonificacion Colombia/Mundo/ne_10m_ocean/ne_10m_ocean.shp'
-region_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Zonificacion Colombia/Mundo/ne_10m_admin_0_countries/ne_10m_admin_0_countries.shp'
-pais_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Zonificacion Colombia/Mundo/ne_10m_admin_0_countries/ne_10m_admin_0_countries.shp'
-departamentos_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/ADMINISTRATIVO/MGN_DPTO_POLITICO.shp'
-municipios_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Zonificacion Colombia/Municipios/Municipios2/MGN_MPIO_POLITICO.shp'
-consejos_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Consejo_Comunitario_Titulado/Consejo_Comunitario_Titulado.gpkg'
-resguardos_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Zonificacion Colombia/Resguardos/Resguardo_Indigena_Formalizado/Resguardo_Indigena_Formalizado.shp'
-campesinas_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/ZPRNRMA_1125_2021/ZPRNRMA_1125_2021.shp'
-coberturas_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Coberturas Vegetales/Corregidas Coberturas.gpkg'
-ecosistemas_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Ecositemas/corregidos.gpkg'
-coberturas_path1 = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Coberturas Vegetales/Corregidas Coberturas1.gpkg'
-ecosistemas_path1 = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Ecositemas/corregidos1.gpkg'
+oceano_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Zonificacion Colombia/Mundo/ne_10m_ocean/ne_10m_ocean.shp'
+region_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Zonificacion Colombia/Mundo/ne_10m_admin_0_countries/ne_10m_admin_0_countries.shp'
+pais_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Zonificacion Colombia/Mundo/ne_10m_admin_0_countries/ne_10m_admin_0_countries.shp'
+departamentos_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/ADMINISTRATIVO/MGN_DPTO_POLITICO.shp'
+municipios_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Zonificacion Colombia/Municipios/Municipios2/MGN_MPIO_POLITICO.shp'
+consejos_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Consejo_Comunitario_Titulado/Consejo_Comunitario_Titulado.gpkg'
+resguardos_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Zonificacion Colombia/Resguardos/Resguardo_Indigena_Formalizado/Resguardo_Indigena_Formalizado.shp'
+campesinas_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/ZPRNRMA_1125_2021/ZPRNRMA_1125_2021.shp'
+coberturas_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Coberturas Vegetales/Corregidas Coberturas.gpkg'
+ecosistemas_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Ecositemas/corregidos.gpkg'
+coberturas_path1 = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Coberturas Vegetales/Corregidas Coberturas1.gpkg'
+ecosistemas_path1 = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Ecositemas/corregidos1.gpkg'
 
-vias_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/VIAS/VIAS.shp'
-vias2_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Zonificacion Colombia/INVIAS/Invias_Vias.gpkg'
-linea_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/URBANO/MGN_URB_LINEA.shp'
-manzana_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/URBANO/MGN_URB_MANZANA.shp'
-nomenclatura_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/URBANO/MGN_URB_NOMENCLATURA_VIAL.shp'
-cultu_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/RURAL/CBD_RUR_CULTU_PUNTO.shp'
-hidro_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/RURAL/CBD_RUR_HIDRO_LINEA.shp'
-hipso_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/RURAL/CBD_RUR_HIPSO_PUNTO.shp'
-otrli_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/RURAL/CBD_RUR_OTRLI_LINEA.shp'
-ambitos_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Ambitos_Territoriales_PDET/Ambitos_Territoriales_PDET.shp'
-zonip_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Zonificacion_PDET_agosto_2021/Zonificacion_PDET_agosto_2021.shp'
-autoridades_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Autoridades Ambientales/Lim_AA_25k_2019.shp'
-marinos_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Ecosistemas Marinos/Mapa_de_Ecosistemas_MEC_100K/Mapa_de_Ecosistemas_MEC_100K.shp'
-coral_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Ecosistemas Marinos/FormacionesCoralinas_Oceanico/FormacionesCoralinas_Oceanico.shp'
-rocoso_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Ecosistemas Marinos/Litoral_Rocoso/litoralrocoso_litoralrocoso.shp'
-prioc_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Ecosistemas Marinos/Sitios_Prioritarios_Conservación_Caribe/Sitios_Prioritarios_Conservación_Caribe.shp'
-priop_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Ecosistemas Marinos/Sitios_Prioritarios_Conservación_Pacífico/Sitios_Prioritarios_Conservación_Pacífico.shp'
-forestal_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Gobernanza_Forestal/Gobernanza_Forestal.shp'
-humedales_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Humedal_version3/Humedal_version3.gpkg'
-paramos_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Paramos_Delimitados_Junio_2020/Paramos_Delimitados_Junio_2020.shp'
-seco_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/BosqueSecoTropical_100K/geo_export_1c851a13-97b1-4163-9ea1-d300bad45e9e.shp'
-parques_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Parque Nacionales/runap_-_Registro_Unico_Nacional_AP/runap_-_Registro_Unico_Nacional_AP.shp'
-priocon_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Prioridad_Conpes/PCN_CONPES.gpkg'
-recu_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Recuperacion/Corregidos Recuperacion3a.gpkg'
-reha_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Rehabilitacion/Corregidos Rehabilitacion3a.gpkg'
-res_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Restauracion/Corregidos Restauracion3a.gpkg'
+vias_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/VIAS/VIAS.shp'
+vias2_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Zonificacion Colombia/INVIAS/Invias_Vias.gpkg'
+linea_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/URBANO/MGN_URB_LINEA.shp'
+manzana_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/URBANO/MGN_URB_MANZANA.shp'
+nomenclatura_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/URBANO/MGN_URB_NOMENCLATURA_VIAL.shp'
+cultu_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/RURAL/CBD_RUR_CULTU_PUNTO.shp'
+hidro_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/RURAL/CBD_RUR_HIDRO_LINEA.shp'
+hipso_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/RURAL/CBD_RUR_HIPSO_PUNTO.shp'
+otrli_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Zonificacion Colombia/Colombia Dane/RURAL/CBD_RUR_OTRLI_LINEA.shp'
+ambitos_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Ambitos_Territoriales_PDET/Ambitos_Territoriales_PDET.shp'
+zonip_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Zonificacion_PDET_agosto_2021/Zonificacion_PDET_agosto_2021.shp'
+autoridades_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Autoridades Ambientales/Lim_AA_25k_2019.shp'
+marinos_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Ecosistemas Marinos/Mapa_de_Ecosistemas_MEC_100K/Mapa_de_Ecosistemas_MEC_100K.shp'
+coral_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Ecosistemas Marinos/FormacionesCoralinas_Oceanico/FormacionesCoralinas_Oceanico.shp'
+rocoso_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Ecosistemas Marinos/Litoral_Rocoso/litoralrocoso_litoralrocoso.shp'
+prioc_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Ecosistemas Marinos/Sitios_Prioritarios_Conservación_Caribe/Sitios_Prioritarios_Conservación_Caribe.shp'
+priop_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Ecosistemas Marinos/Sitios_Prioritarios_Conservación_Pacífico/Sitios_Prioritarios_Conservación_Pacífico.shp'
+forestal_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Gobernanza_Forestal/Gobernanza_Forestal.shp'
+humedales_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Humedal_version3/Humedal_version3.gpkg'
+paramos_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Paramos_Delimitados_Junio_2020/Paramos_Delimitados_Junio_2020.shp'
+seco_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/BosqueSecoTropical_100K/geo_export_1c851a13-97b1-4163-9ea1-d300bad45e9e.shp'
+parques_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Parque Nacionales/runap_-_Registro_Unico_Nacional_AP/runap_-_Registro_Unico_Nacional_AP.shp'
+priocon_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Prioridad_Conpes/PCN_CONPES2.gpkg'
 
-cienaga_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/Cienaga_grande_SM.shp'
-cinturon_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/Cinturon_Andino.shp'
-tuparro_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/El_Tuparro.shp'
-ramsar_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/HumedalesRAMSAR.shp'
-pomcas_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/POMCAS_MADS.shp'
-zpomcas_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/POMCAS Zonificacion/zonificacion_POMCA_Octubre_2021/zonificacion_POMCA_Octubre_2021.shp'
-ley2_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/ReservasForestalesLEY2.gpkg'
-sierra_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/SCSierraNevadaSantaM.shp'
-seaflower_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/Seaflower.shp'
-nsm_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/SierraNSM.shp'
+recu_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Recuperacion/Corregidos Recuperacion4.gpkg'
+reha_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Rehabilitacion/Corregidos Rehabilitacion4.gpkg'
+res_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Restauracion/Corregidos Restauracion4.gpkg'
 
-manglares_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/MANGLARES_COLOMBIA/MANGLARES_COLOMBIA.gpkg'
-zoniparques_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Archivo_Zonificacion_PNNC_PM_Oficial_13122023/Corregidos Zonificacion1.gpkg'
-biosfera_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/RESERVA_BIOSFERA_20240808/RESERVA_BIOSFERA_20240808.shp'
-paz_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Bosques_Paz_septiembre_2022/Bosques_Paz_septiembre_2022.shp'
-usos_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/usus_rurales/ZonificacionUsosRurales.shp'
+#recu_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Recuperacion/Corregidos Recuperacion3a.gpkg'
+#reha_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Rehabilitacion/Corregidos Rehabilitacion3a.gpkg'
+#res_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Restauracion/Corregidos Restauracion3a.gpkg'
 
-rforestalp_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1926_2013/res_1926_2013_info_cartografica/Zonificacion_PACIFICO_2014_2.shp'
-rforestals_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1276_2014/res_1276_2014_info_cartografica/Zonificacion_SNSM_2014.shp'
-rforestalm1_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1925_2013/res_1925_2013_info_cartografica/Zonificacion_AMAZONIA_2014_2.shp'
-rforestalm2_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/Amazonia2 Resolucion-1277-de-2014/res_1277_2014_info_cartografica/Zonificacion_AMAZONIA_2014_2RESOLUCION1.gpkg'
-rforestalc_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1922_2013/res_1922_2013_info_cartografica/Zonificacion_CENTRAL_2014_2.shp'
-rforestalmo_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1923_2013/res_1923_2013_info_cartografica/Zonificacion_MOTILONES_2014_2.shp'
-rforestalmag_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/Reserva Forestal Magdalena/res_1924_2013_info_cartografica/Zonificacion_MAGDALENA_2014_2.shp'
-rforestalmag_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/Reserva Forestal Magdalena/res_1924_2013_info_cartografica/Zonificacion_MAGDALENA_2014_2.shp'
+cienaga_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/Cienaga_grande_SM.shp'
+cinturon_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/Cinturon_Andino.shp'
+tuparro_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/El_Tuparro.shp'
+ramsar_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/HumedalesRAMSAR.shp'
+pomcas_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/POMCAS_MADS.shp'
+zpomcas_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/POMCAS Zonificacion/zonificacion_POMCA_Octubre_2021/zonificacion_POMCA_Octubre_2021.shp'
+ley2_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/ReservasForestalesLEY2.gpkg'
+sierra_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/SCSierraNevadaSantaM.shp'
+seaflower_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/Seaflower.shp'
+nsm_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/AreasdeImportanciaEspecial_shp/SierraNSM.shp'
 
-pomcamoya_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/POMCAS/Amoya/ZonificacionAmbiental1.shp'
-pomcazap_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/POMCAS/Cienaga Zapatosa/ZonificacionAmbiental.shp'
-pomcamoj_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/POMCAS/Mojana/Zonif_dissolve1.shp'
-pomcag_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/POMCAS/Rio Tapias Guajira/ZonificacionAmbiental.shp'
-pomcajorg_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/POMCAS/POMCA San Jorge/ZonificacionAmbiental1.gpkg'
-pomcacgsm_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/POMCAS/Cienaga Grande/ZonificacionAmbiental_POMCAS1.gpkg'
+manglares_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/MANGLARES_COLOMBIA/MANGLARES_COLOMBIA.gpkg'
+zoniparques_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Archivo_Zonificacion_PNNC_PM_Oficial_13122023/Corregidos Zonificacion1.gpkg'
+biosfera_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/RESERVA_BIOSFERA_20240808/RESERVA_BIOSFERA_20240808.shp'
+paz_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Bosques_Paz_septiembre_2022/Bosques_Paz_septiembre_2022.shp'
+usos_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/usus_rurales/ZonificacionUsosRurales.shp'
 
-cienaga2_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Hidrologia/Cienagas/Cienagas2.gpkg'
-cuencas_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Hidrologia/Zonificación_Hidrográfica_Colombia_20260205.kml'
-rios1_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Hidrologia/Rios/Principales Rios1.gpkg'
-pantanos_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Hidrologia/Pantanos.gpkg'
-lagunas_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Hidrologia/Lagunas/Lagunas.gpkg'
+rforestalp_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1926_2013/res_1926_2013_info_cartografica/Zonificacion_PACIFICO_2014_2.shp'
+rforestals_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1276_2014/res_1276_2014_info_cartografica/Zonificacion_SNSM_2014.shp'
+rforestalm1_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1925_2013/res_1925_2013_info_cartografica/Zonificacion_AMAZONIA_2014_2.shp'
+rforestalm2_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/Amazonia2 Resolucion-1277-de-2014/res_1277_2014_info_cartografica/Zonificacion_AMAZONIA_2014_2RESOLUCION1.gpkg'
+rforestalc_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1922_2013/res_1922_2013_info_cartografica/Zonificacion_CENTRAL_2014_2.shp'
+rforestalmo_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1923_2013/res_1923_2013_info_cartografica/Zonificacion_MOTILONES_2014_2.shp'
+rforestalmag_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/Reserva Forestal Magdalena/res_1924_2013_info_cartografica/Zonificacion_MAGDALENA_2014_2.shp'
+rforestalmag_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/Reserva Forestal Magdalena/res_1924_2013_info_cartografica/Zonificacion_MAGDALENA_2014_2.shp'
+
+pomcamoya_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/POMCAS/Amoya/ZonificacionAmbiental1.shp'
+pomcazap_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/POMCAS/Cienaga Zapatosa/ZonificacionAmbiental.shp'
+pomcamoj_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/POMCAS/Mojana/Zonif_dissolve1.shp'
+pomcag_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/POMCAS/Rio Tapias Guajira/ZonificacionAmbiental.shp'
+pomcajorg_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/POMCAS/POMCA San Jorge/ZonificacionAmbiental1.gpkg'
+pomcacgsm_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/POMCAS/Cienaga Grande/ZonificacionAmbiental_POMCAS1.gpkg'
+
+cienaga2_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Hidrologia/Cienagas/Cienagas2.gpkg'
+cuencas_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Hidrologia/Zonificación_Hidrográfica_Colombia_20260205.kml'
+rios1_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Hidrologia/Rios/Principales Rios1.gpkg'
+pantanos_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Hidrologia/Pantanos.gpkg'
+lagunas_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Hidrologia/Lagunas/Lagunas.gpkg'
 
 
 
-rforestalp_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1926_2013/res_1926_2013_info_cartografica/Zonificacion_PACIFICO_2014_2.shp'
-rforestals_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1276_2014/res_1276_2014_info_cartografica/Zonificacion_SNSM_2014.shp'
-rforestalm1_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1925_2013/res_1925_2013_info_cartografica/Zonificacion_AMAZONIA_2014_2.shp'
-rforestalm2_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/Amazonia2 Resolucion-1277-de-2014/res_1277_2014_info_cartografica/Zonificacion_AMAZONIA_2014_2RESOLUCION.shp'
-rforestalc_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1922_2013/res_1922_2013_info_cartografica/Zonificacion_CENTRAL_2014_2.shp'
-rforestalmo_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1923_2013/res_1923_2013_info_cartografica/Zonificacion_MOTILONES_2014_2.shp'
-rforestalmag_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/Reserva Forestal Magdalena/res_1924_2013_info_cartografica/Zonificacion_MAGDALENA_2014_2.shp'
-rforestalmag_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/Reserva Forestal Magdalena/res_1924_2013_info_cartografica/Zonificacion_MAGDALENA_2014_2.shp'
+rforestalp_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1926_2013/res_1926_2013_info_cartografica/Zonificacion_PACIFICO_2014_2.shp'
+rforestals_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1276_2014/res_1276_2014_info_cartografica/Zonificacion_SNSM_2014.shp'
+rforestalm1_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1925_2013/res_1925_2013_info_cartografica/Zonificacion_AMAZONIA_2014_2.shp'
+rforestalm2_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/Amazonia2 Resolucion-1277-de-2014/res_1277_2014_info_cartografica/Zonificacion_AMAZONIA_2014_2RESOLUCION.shp'
+rforestalc_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1922_2013/res_1922_2013_info_cartografica/Zonificacion_CENTRAL_2014_2.shp'
+rforestalmo_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/res_1923_2013/res_1923_2013_info_cartografica/Zonificacion_MOTILONES_2014_2.shp'
+rforestalmag_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/Reserva Forestal Magdalena/res_1924_2013_info_cartografica/Zonificacion_MAGDALENA_2014_2.shp'
+rforestalmag_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Reservas Forestales/Reserva Forestal Magdalena/res_1924_2013_info_cartografica/Zonificacion_MAGDALENA_2014_2.shp'
 
-uacl_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Unidades Costeras/UACLLAS_-7168726867593121250/UACLLAS.shp'
-uacs_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Unidades Costeras/Unidades Costeras/Limites UACs1.gpkg'
+uacl_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Unidades Costeras/UACLLAS_-7168726867593121250/UACLLAS.shp'
+uacs_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/Unidades Costeras/Unidades Costeras/Limites UACs1.gpkg'
 
-#veredas_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Zonificacion Colombia/Veredas/CRVeredas_2020.shp'
+#veredas_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Zonificacion Colombia/Veredas/CRVeredas_2020.shp'
 
 # Lista de nombres de capas a procesar pc Andrey
 #nombres_capas = ['OpenStreetMap', 'oceano', 'regiones_seleccionados', 'paises_seleccionados', 'departamentos', 'departamentos_seleccionados', 'MunicipiosDep2', 'municipios_seleccionados', 'Consejos2', 'veredas_en_consejos']
@@ -127,6 +132,7 @@ from qgis import processing
 from qgis.PyQt.QtCore import QVariant
 from collections import defaultdict
 from qgis.core import QgsProject, QgsVectorLayer, QgsRendererCategory, QgsCategorizedSymbolRenderer, QgsSymbol, QgsFeatureRequest, QgsFillSymbol, QgsSingleSymbolRenderer, QgsCoordinateReferenceSystem
+
 
 #Areas
 ########################
@@ -950,6 +956,19 @@ for nombre_capa in nombres_capas:
             QgsProject.instance().removeMapLayer(capa)
         print(f"🗑️ Capa '{nombre_capa}' eliminada.")
 
+#CRS equalt earth
+###########################################
+
+# 1. Crear el CRS a partir del código EPSG
+crs = QgsCoordinateReferenceSystem("EPSG:8858")
+
+# 2. Comprobar que el CRS es válido (evita fallos silenciosos)
+if crs.isValid():
+    # 3. Asignar el CRS al proyecto actual
+    QgsProject.instance().setCrs(crs)
+    print(f"CRS del proyecto cambiado a: {crs.authid()} - {crs.description()}")
+else:
+    raise ValueError("El CRS EPSG:8858 no se reconoce. Revisa la base de datos PROJ.")
 
 # Cargar OpenStreetMap
 ############################################
@@ -1378,12 +1397,6 @@ aplicar_estilo_comun_a_capas(
 )
 
 
-if resultadocov:
-    print("\n✅ Proceso completado exitosamente")
-else:
-    print("\n❌ Hubo un error en el proceso")
-
-print("\n" + "="*60)
 
 
 # Cargar la capa
@@ -1443,6 +1456,14 @@ resultadocov = actualizar_etiquetas_capa(
     nombre_campo = 'nivel_3',
     mapeo_etiquetas = mapeo_cov
 )
+
+if resultadocov:
+    print("\n✅ Proceso completado exitosamente")
+else:
+    print("\n❌ Hubo un error en el proceso")
+
+print("\n" + "="*60)
+
 
 # Cargar la capa
 ecolayer1 = QgsVectorLayer(ecosistemas_path1, 'Ecosistemas20', "ogr")
@@ -1924,6 +1945,7 @@ aplicar_estilo_comun_a_capas(
     borde_color = '0, 0, 0',    # Borde negro
     grosor_borde = 0.3        # 0.3 mm de grosor
 )
+
 
 
 #AmbitosPDET
@@ -2489,7 +2511,7 @@ print("\n" + "="*60)
 #QgsVectorLayer
 
 # Tu código original con correcciones
-pomcacgsm_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Ecosistemas y comunidades/POMCAS/Cienaga Grande/ZonificacionAmbiental_POMCAS1.gpkg'
+pomcacgsm_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Ecosistemas y comunidades/POMCAS/Cienaga Grande/ZonificacionAmbiental_POMCAS1.gpkg'
 
 # 1. Cargar la capa (guardar referencia)
 pomcacgsm = QgsVectorLayer(pomcacgsm_path, 'pomcacgsm', 'ogr')
@@ -3050,157 +3072,102 @@ else:
 
 # 3. OBTENER GEOMETRÍA DE CORTE
 geometria_corte = next(capa_corte.getFeatures()).geometry()
+print(f"✅ Geometría de corte reconstruida: {geometria_corte.boundingBox().toString()}")
 
 #Recuperacion
 ##############################
 
-nombre_recu = 'Corregidos Recuperacion'
+nombre_recu = 'Corregidos'
 capa_recu = 'recuperacion'
 salida_recu = 'recuperacion_cortada'
 
-# Cargar capa de recuperación
-uri = f"{recu_path}|layername={nombre_recu}"
-reclayer = QgsVectorLayer(uri, capa_recu, "ogr")
+import time
+import processing
+from qgis.core import (
+    QgsProject, QgsVectorLayer, QgsGeometry, QgsCoordinateTransform,
+    QgsFillSymbol, QgsSingleSymbolRenderer, QgsProviderRegistry
+)
 
-# Verificar y crear índices espaciales
-print(f"\n📌 Índices espaciales:")
-if not reclayer.hasSpatialIndex():
-    print("   Creando índice para capa de recuperación...")
-    processing.run("native:createspatialindex", {'INPUT': reclayer})
-    print("   ✅ Índice creado")
+# ── 0. Reconstruir geometria_corte desde la capa de corte ────────
+geometria_corte = next(capa_corte.getFeatures()).geometry()
+print(f"✅ Geometría de corte reconstruida: {geometria_corte.boundingBox().toString()}")
+
+# ── 1. Cargar rehlayer ────────────────────────────────────────────
+metadata = QgsProviderRegistry.instance().providerMetadata("ogr")
+nombre_reha_real = metadata.querySublayers(reha_path)[0].name()
+uri = f"{reha_path}|layername={nombre_reha_real}"
+rehlayer = QgsVectorLayer(uri, 'rehabilitacion', "ogr")
+print(f"✅ rehlayer: {rehlayer.featureCount()} features | {rehlayer.crs().authid()}")
+
+if not rehlayer.isValid() or rehlayer.featureCount() <= 0:
+    print("❌ rehlayer no cargó")
 else:
-    print("   ✅ Capa tiene índice")
+    if not rehlayer.hasSpatialIndex():
+        processing.run("native:createspatialindex", {'INPUT': rehlayer})
 
-# 4. SELECCIÓN POR BOUNDING BOX
+    # ── 2. Transformar en variable LOCAL ─────────────────────────
+    transform = QgsCoordinateTransform(capa_corte.crs(), rehlayer.crs(), QgsProject.instance())
+    geometria_corte_local = QgsGeometry(geometria_corte)
+    resultado = geometria_corte_local.transform(transform)
+    print(f"🔄 Transform: {resultado} | BBox: {geometria_corte_local.boundingBox().toString()}")
 
-print(f"\n📦 Seleccionando features por bounding box...")
-t_bbox = time.time()
+    # ── 3. Selección por bbox ────────────────────────────────────
+    rehlayer.selectByRect(geometria_corte_local.boundingBox())
+    features_bbox = rehlayer.selectedFeatureCount()
+    print(f"📦 Features en bbox: {features_bbox}")
 
-reclayer.selectByRect(geometria_corte.boundingBox())
-features_bbox = reclayer.selectedFeatureCount()
-print(f"   ✅ Features en bounding box: {features_bbox}")
-print(f"   ⏱️  Tiempo: {time.time()-t_bbox:.1f}s")
+    # ── 4. Extraer intersección real ─────────────────────────────
+    selected_ids = [f.id() for f in rehlayer.getSelectedFeatures()]
+    if selected_ids:
+        ids_str = ','.join(str(i) for i in selected_ids)
+        expression = (
+            f"$id IN ({ids_str}) AND "
+            f"intersects($geometry, geom_from_wkt('{geometria_corte_local.asWkt()}'))"
+        )
+        params_extract = {
+            'INPUT': rehlayer,
+            'EXPRESSION': expression,
+            'OUTPUT': 'TEMPORARY_OUTPUT'
+        }
+        rehlayer1 = processing.run("qgis:extractbyexpression", params_extract)['OUTPUT']
+        features_reales = rehlayer1.featureCount()
+        print(f"🔍 Features que intersectan: {features_reales}")
+    else:
+        rehlayer1 = None
+        features_reales = 0
+        print("⚠️ Sin features en bbox")
 
-# 5. EXTRAER SOLO LAS QUE REALMENTE INTERSECTAN (VERSIÓN CORREGIDA)
+    rehlayer.removeSelection()
 
-print(f"\n🔍 Refinando con intersección real...")
-t_interseccion = time.time()
+    # ── 5. Clip o capa vacía ─────────────────────────────────────
+    if not rehlayer1 or features_reales == 0:
+        print("⚠️ Sin intersección: capa vacía")
+        resultado_reha = QgsVectorLayer(
+            "Polygon?crs=" + rehlayer.crs().authid(),
+            'rehabilitacion_cortada_sin_datos', "memory"
+        )
+        QgsProject.instance().addMapLayer(resultado_reha)
+    else:
+        params_clip = {
+            'INPUT': rehlayer1,
+            'OVERLAY': capa_corte,   # Processing reproyecta automáticamente
+            'OUTPUT': 'TEMPORARY_OUTPUT'
+        }
+        resultado_reha = processing.run("native:clip", params_clip)['OUTPUT']
+        resultado_reha.setName('rehabilitacion_cortada')
+        QgsProject.instance().addMapLayer(resultado_reha)
+        print(f"✂️ Clip: {resultado_reha.featureCount()} features")
 
-# VERSIÓN CORREGIDA: Usar la selección actual para extraer
-# Primero, guardamos los IDs de las features seleccionadas
-selected_ids = [f.id() for f in reclayer.getSelectedFeatures()]
-
-# Construir expresión con los IDs seleccionados
-if selected_ids:
-    ids_str = ','.join(str(id) for id in selected_ids)
-    expression = f"$id IN ({ids_str}) AND intersects($geometry, geom_from_wkt('{geometria_corte.asWkt()}'))"
-    
-    params_extract = {
-        'INPUT': reclayer,
-        'EXPRESSION': expression,
-        'OUTPUT': 'memory:recuperacion_preseleccion'
-    }
-    
-    reclayer1 = processing.run("qgis:extractbyexpression", params_extract)['OUTPUT']
-    features_reales = reclayer1.featureCount()
-    
-    print(f"   ✅ Features que realmente intersectan: {features_reales}")
-    print(f"   📊 Descartadas por bounding box: {features_bbox - features_reales}")
-else:
-    print("   ⚠️ No hay features seleccionadas por bounding box")
-    reclayer1 = None
-    features_reales = 0
-
-print(f"   ⏱️  Tiempo: {time.time()-t_interseccion:.1f}s")
-
-# Limpiar selección
-reclayer.removeSelection()
-
-# 6. VERIFICAR QUE HAY FEATURES PARA PROCESAR
-
-if not reclayer1 or features_reales == 0:
-    print("\n⚠️ ADVERTENCIA: No hay features para procesar.")
-    print("   El área de corte no intersecta la capa de recuperación.")
-    print("   Se creará una capa vacía para mantener el flujo del script.")
-    
-    # Crear una capa vacía para evitar errores posteriores
-    resultado_recu = QgsVectorLayer("Polygon?crs=" + reclayer.crs().authid(), 
-                                     salida_recu + "_sin_datos", "memory")
-    QgsProject.instance().addMapLayer(resultado_recu)
-
-    # Aplicar estilo a la capa vacía
-    symbolrecu = QgsFillSymbol.createSimple({
-        'color': '134, 126, 54',
-        'color_border': '112, 28, 28',
+    # ── 6. Estilo ─────────────────────────────────────────────────
+    symbolreha = QgsFillSymbol.createSimple({
+        'color': '157, 194, 9',
+        'color_border': '33, 66, 30',
         'width_border': '0.3'
     })
-    renderecu = QgsSingleSymbolRenderer(symbolrecu)
-    resultado_recu.setRenderer(renderecu)
-    
-    print("\n" + "="*60)
-    print("⚠️ PROCESO COMPLETADO SIN DATOS (intersección vacía)")
-    print("="*60)
-    
-    # Salir del script sin cerrar QGIS
-    import sys
-    sys.exit(0)  # 0 indica terminación normal, no cierra QGIS
-
-# 7. CREAR ÍNDICE ESPACIAL PARA LA CAPA EXTRAÍDA
-
-print(f"\n📌 Creando índice espacial...")
-t_indice = time.time()
-processing.run("native:createspatialindex", {'INPUT': reclayer1})
-print(f"   ✅ Índice creado en {time.time()-t_indice:.1f}s")
-
-# 8. CLIP VECTORIAL
-
-print(f"\n✂️ Ejecutando clip vectorial...")
-t_clip = time.time()
-
-params_clip = {
-    'INPUT': reclayer1,
-    'OVERLAY': capa_corte,
-    'OUTPUT': f'memory:{salida_recu}'
-}
-
-try:
-    resultado_recu = processing.run("native:clip", params_clip)['OUTPUT']
-    print(f"   ✅ Features resultantes: {resultado_recu.featureCount()}")
-    print(f"   ⏱️  Tiempo: {time.time()-t_clip:.1f}s")
-    
-    # Añadir al proyecto
-    QgsProject.instance().addMapLayer(resultado_recu)
-    print(f"   ✅ Capa '{salida_recu}' añadida al proyecto")
-    
-except Exception as e:
-    print(f"   ❌ Error en clip: {e}")
-    print("   Intentando con algoritmo alternativo...")
-    
-    params_clip_alt = {
-        'INPUT': reclayer1,
-        'POLYGONS': capa_corte,
-        'OUTPUT': f'memory:{salida_recu}'
-    }
-    resultado_recu = processing.run("native:clipvectorbypolygon", params_clip_alt)['OUTPUT']
-    QgsProject.instance().addMapLayer(resultado_recu)
-
-# 9. APLICAR ESTILO
-
-print(f"\n🎨 Aplicando estilo...")
-t_estilo = time.time()
-
-symbolrecu = QgsFillSymbol.createSimple({
-    'color': '134, 126, 54',
-    'color_border': '112, 28, 28',
-    'width_border': '0.3'
-})
-
-renderecu = QgsSingleSymbolRenderer(symbolrecu)
-resultado_recu.setRenderer(renderecu)
-resultado_recu.triggerRepaint()
-resultado_recu.updateExtents()
-
-print(f"   ✅ Estilo aplicado en {time.time()-t_estilo:.1f}s")
+    resultado_reha.setRenderer(QgsSingleSymbolRenderer(symbolreha))
+    resultado_reha.triggerRepaint()
+    resultado_reha.updateExtents()
+    print("✅ Estilo aplicado")
 
 
 
@@ -3208,15 +3175,34 @@ print(f"   ✅ Estilo aplicado en {time.time()-t_estilo:.1f}s")
 #Rehabilitacion
 #############################################
 
-nombre_reha = 'Corregidos Rehabilitacion'
+metadata = QgsProviderRegistry.instance().providerMetadata("ogr")
+nombre_reha = metadata.querySublayers(reha_path)[0].name()
 capa_reha = 'rehabilitacion'
 salida_reha = 'rehabilitacion_cortada'
 
-# Cargar capa de recuperación
+# Cargar capa de rehaperación
+metadata = QgsProviderRegistry.instance().providerMetadata("ogr")
+nombre_reha = metadata.querySublayers(reha_path)[0].name()
 uri = f"{reha_path}|layername={nombre_reha}"
 rehlayer = QgsVectorLayer(uri, capa_reha, "ogr")
 
-#rehlayer = iface.addVectorLayer(uri, capa_reha, "ogr")
+print(f"✅ rehlayer: {rehlayer.featureCount()} features | {rehlayer.crs().authid()}")
+
+
+if not rehlayer.isValid() or rehlayer.featureCount() <= 0:
+    print("❌ rehlayer no cargó")
+else:
+    # ── 3. Índice espacial ────────────────────────────────────────
+    if not rehlayer.hasSpatialIndex():
+        processing.run("native:createspatialindex", {'INPUT': rehlayer})
+        print("   ✅ Índice creado")
+
+    # ── 2. Transformar en variable LOCAL ─────────────────────────
+    transform = QgsCoordinateTransform(capa_corte.crs(), rehlayer.crs(), QgsProject.instance())
+    geometria_corte_local = QgsGeometry(geometria_corte)
+    resultado = geometria_corte_local.transform(transform)
+    print(f"🔄 Transform: {resultado} | BBox: {geometria_corte_local.boundingBox().toString()}")
+
 
 # Verificar y crear índices espaciales
 print(f"\n📌 Índices espaciales:")
@@ -3232,11 +3218,10 @@ else:
 print(f"\n📦 Seleccionando features por bounding box...")
 t_bbox = time.time()
 
-rehlayer.selectByRect(geometria_corte.boundingBox())
+rehlayer.selectByRect(geometria_corte_local.boundingBox())
 features_bbox = rehlayer.selectedFeatureCount()
 print(f"   ✅ Features en bounding box: {features_bbox}")
 print(f"   ⏱️  Tiempo: {time.time()-t_bbox:.1f}s")
-
 
 # 5. EXTRAER SOLO LAS QUE REALMENTE INTERSECTAN (VERSIÓN CORREGIDA)
 
@@ -3250,7 +3235,7 @@ selected_ids = [f.id() for f in rehlayer.getSelectedFeatures()]
 # Construir expresión con los IDs seleccionados
 if selected_ids:
     ids_str = ','.join(str(id) for id in selected_ids)
-    expression = f"$id IN ({ids_str}) AND intersects($geometry, geom_from_wkt('{geometria_corte.asWkt()}'))"
+    expression = f"$id IN ({ids_str}) AND intersects($geometry, geom_from_wkt('{geometria_corte_local.asWkt()}'))"
     
     params_extract = {
         'INPUT': rehlayer,
@@ -3299,8 +3284,8 @@ if not rehlayer1 or features_reales == 0:
     print("="*60)
     
     # Salir del script sin cerrar QGIS
-    import sys
-    sys.exit(0)  # 0 indica terminación normal, no cierra QGIS
+#    import sys
+#    sys.exit(0)  # 0 indica terminación normal, no cierra QGIS
 
 # 7. CREAR ÍNDICE ESPACIAL PARA LA CAPA EXTRAÍDA
 
@@ -3364,172 +3349,93 @@ print(f"   ✅ Estilo aplicado en {time.time()-t_estilo:.1f}s")
 #Restauracion
 ############################################
 
-nombre_resta = 'Corregidos Restauracion2'
-capa_reta = 'restauracion'
-salida_resta = 'restauracion_cortada'
+import time
+import processing
+from qgis.core import (
+    QgsProject, QgsVectorLayer, QgsGeometry, QgsCoordinateTransform,
+    QgsFillSymbol, QgsSingleSymbolRenderer, QgsProviderRegistry
+)
 
-# Cargar capa de restauración
-uri = f"{res_path}|layername={nombre_resta}"
-reslayer = QgsVectorLayer(uri, capa_reta, "ogr")
-#reslayer1 = iface.addVectorLayer(uri, capa_reta, "ogr")
+# ── 0. Reconstruir geometria_corte desde la capa de corte ────────
+geometria_corte = next(capa_corte.getFeatures()).geometry()
+print(f"✅ Geometría de corte reconstruida: {geometria_corte.boundingBox().toString()}")
 
-# Verificar y crear índices espaciales
-print(f"\n📌 Índices espaciales:")
-if not reslayer.hasSpatialIndex():
-    print("   Creando índice para capa de restauración...")
-    processing.run("native:createspatialindex", {'INPUT': reslayer})
-    print("   ✅ Índice creado")
+# ── 1. Cargar reslayer ────────────────────────────────────────────
+metadata = QgsProviderRegistry.instance().providerMetadata("ogr")
+nombre_res_real = metadata.querySublayers(res_path)[0].name()
+uri = f"{res_path}|layername={nombre_res_real}"
+reslayer = QgsVectorLayer(uri, 'restauracion', "ogr")
+print(f"✅ reslayer: {reslayer.featureCount()} features | {reslayer.crs().authid()}")
+
+if not reslayer.isValid() or reslayer.featureCount() <= 0:
+    print("❌ reslayer no cargó")
 else:
-    print("   ✅ Capa tiene índice")
+    if not reslayer.hasSpatialIndex():
+        processing.run("native:createspatialindex", {'INPUT': reslayer})
 
-# 4. SELECCIÓN POR BOUNDING BOX
+    # ── 2. Transformar en variable LOCAL ─────────────────────────
+    transform = QgsCoordinateTransform(capa_corte.crs(), reslayer.crs(), QgsProject.instance())
+    geometria_corte_local = QgsGeometry(geometria_corte)
+    resultado = geometria_corte_local.transform(transform)
+    print(f"🔄 Transform: {resultado} | BBox: {geometria_corte_local.boundingBox().toString()}")
 
-print(f"\n📦 Seleccionando features por bounding box...")
-t_bbox = time.time()
+    # ── 3. Selección por bbox ────────────────────────────────────
+    reslayer.selectByRect(geometria_corte_local.boundingBox())
+    features_bbox = reslayer.selectedFeatureCount()
+    print(f"📦 Features en bbox: {features_bbox}")
 
-reslayer.selectByRect(geometria_corte.boundingBox())
-features_bbox = reslayer.selectedFeatureCount()
-print(f"   ✅ Features en bounding box: {features_bbox}")
-print(f"   ⏱️  Tiempo: {time.time()-t_bbox:.1f}s")
-
-# 5. EXTRAER SOLO LAS QUE REALMENTE INTERSECTAN
-
-print(f"\n🔍 Refinando con intersección real...")
-t_interseccion = time.time()
-
-# Guardamos los IDs de las features seleccionadas
-selected_ids = [f.id() for f in reslayer.getSelectedFeatures()]
-
-# Inicializar variables
-skip_processing = False
-reslayer1 = None
-features_reales = 0
-
-# Construir expresión con los IDs seleccionados
-if selected_ids:
-    ids_str = ','.join(str(id) for id in selected_ids)
-    expression = f"$id IN ({ids_str}) AND intersects($geometry, geom_from_wkt('{geometria_corte.asWkt()}'))"
-    
-    params_extract = {
-        'INPUT': reslayer,
-        'EXPRESSION': expression,
-        'OUTPUT': 'memory:restauracion_preseleccion'
-    }
-    
-    try:
+    # ── 4. Extraer intersección real ─────────────────────────────
+    selected_ids = [f.id() for f in reslayer.getSelectedFeatures()]
+    if selected_ids:
+        ids_str = ','.join(str(i) for i in selected_ids)
+        expression = (
+            f"$id IN ({ids_str}) AND "
+            f"intersects($geometry, geom_from_wkt('{geometria_corte_local.asWkt()}'))"
+        )
+        params_extract = {
+            'INPUT': reslayer,
+            'EXPRESSION': expression,
+            'OUTPUT': 'TEMPORARY_OUTPUT'
+        }
         reslayer1 = processing.run("qgis:extractbyexpression", params_extract)['OUTPUT']
         features_reales = reslayer1.featureCount()
-        
-        print(f"   ✅ Features que realmente intersectan: {features_reales}")
-        print(f"   📊 Descartadas por bounding box: {features_bbox - features_reales}")
-    except Exception as e:
-        print(f"   ⚠️ Error en extracción: {e}")
-        features_reales = 0
+        print(f"🔍 Features que intersectan: {features_reales}")
+    else:
         reslayer1 = None
-else:
-    print("   ⚠️ No hay features seleccionadas por bounding box")
-    features_reales = 0
-    reslayer1 = None
+        features_reales = 0
+        print("⚠️ Sin features en bbox")
 
-print(f"   ⏱️  Tiempo: {time.time()-t_interseccion:.1f}s")
+    reslayer.removeSelection()
 
-# Limpiar selección
-reslayer.removeSelection()
-
-# 6. VERIFICAR QUE HAY FEATURES PARA PROCESAR
-
-if not reslayer1 or features_reales == 0:
-    print("\n⚠️ ADVERTENCIA: No hay features para procesar.")
-    print("   Esto puede deberse a que el área de corte no intersecta la capa.")
-    print("   El script continuará pero no generará capa de resultado.")
-    
-    # Crear una capa vacía para evitar errores posteriores
-    from qgis.core import QgsVectorLayer
-    resultado_resta = QgsVectorLayer("Polygon?crs=" + reslayer.crs().authid(), 
-                                     salida_resta + "_vacia", "memory")
-    QgsProject.instance().addMapLayer(resultado_resta)
-    
-    # Saltar los pasos que dependen de reslayer1
-    skip_processing = True
-else:
-    skip_processing = False
-
-# 7. CREAR ÍNDICE ESPACIAL (solo si hay features)
-
-if not skip_processing:
-    print(f"\n📌 Creando índice espacial...")
-    t_indice = time.time()
-    processing.run("native:createspatialindex", {'INPUT': reslayer1})
-    print(f"   ✅ Índice creado en {time.time()-t_indice:.1f}s")
-    
-    # ============================================
-    # 8. CLIP VECTORIAL (solo si hay features)
-    # ============================================
-    print(f"\n✂️ Ejecutando clip vectorial...")
-    t_clip = time.time()
-    
-    params_clip = {
-        'INPUT': reslayer1,
-        'OVERLAY': capa_corte,
-        'OUTPUT': f'memory:{salida_resta}'
-    }
-    
-    try:
-        resultado_resta = processing.run("native:clip", params_clip)['OUTPUT']
-        print(f"   ✅ Features resultantes: {resultado_resta.featureCount()}")
-        print(f"   ⏱️  Tiempo: {time.time()-t_clip:.1f}s")
-        
-        # Añadir al proyecto
-        QgsProject.instance().addMapLayer(resultado_resta)
-        print(f"   ✅ Capa '{salida_resta}' añadida al proyecto")
-        
-    except Exception as e:
-        print(f"   ❌ Error en clip: {e}")
-        print("   Intentando con algoritmo alternativo...")
-        
-        params_clip_alt = {
+    # ── 5. Clip o capa vacía ─────────────────────────────────────
+    if not reslayer1 or features_reales == 0:
+        print("⚠️ Sin intersección: capa vacía")
+        resultado_res = QgsVectorLayer(
+            "Polygon?crs=" + reslayer.crs().authid(),
+            'resbilitacion_cortada_sin_datos', "memory"
+        )
+        QgsProject.instance().addMapLayer(resultado_res)
+    else:
+        params_clip = {
             'INPUT': reslayer1,
-            'POLYGONS': capa_corte,
-            'OUTPUT': f'memory:{salida_resta}'
+            'OVERLAY': capa_corte,   # Processing reproyecta automáticamente
+            'OUTPUT': 'TEMPORARY_OUTPUT'
         }
-        try:
-            resultado_resta = processing.run("native:clipvectorbypolygon", params_clip_alt)['OUTPUT']
-            QgsProject.instance().addMapLayer(resultado_resta)
-        except Exception as e2:
-            print(f"   ❌ También falló el alternativo: {e2}")
-            # Crear capa vacía como fallback
-            resultado_resta = QgsVectorLayer("Polygon?crs=" + reslayer.crs().authid(), 
-                                             salida_resta + "_error", "memory")
-            QgsProject.instance().addMapLayer(resultado_resta)
-else:
-    print("\n⏩ Procesamiento omitido por falta de features.")
-    # Asegurar que resultado_resta existe para los pasos siguientes
-    if 'resultado_resta' not in locals():
-        from qgis.core import QgsVectorLayer
-        resultado_resta = QgsVectorLayer("Polygon?crs=" + reslayer.crs().authid(), 
-                                         salida_resta + "_sin_datos", "memory")
-        QgsProject.instance().addMapLayer(resultado_resta)
+        resultado_res = processing.run("native:clip", params_clip)['OUTPUT']
+        resultado_res.setName('resbilitacion_cortada')
+        QgsProject.instance().addMapLayer(resultado_res)
+        print(f"✂️ Clip: {resultado_res.featureCount()} features")
 
-# 9. APLICAR ESTILO (siempre se ejecuta)
-
-print(f"\n🎨 Aplicando estilo...")
-t_estilo = time.time()
-
-symbolresta = QgsFillSymbol.createSimple({
+    # ── 6. Estilo ─────────────────────────────────────────────────
+    symbolresta = QgsFillSymbol.createSimple({
     'color': '79, 121, 66',
     'color_border': '48, 96, 48',
     'width_border': '0.3'
 })
-
-renderesta = QgsSingleSymbolRenderer(symbolresta)
-resultado_resta.setRenderer(renderesta)
-resultado_resta.triggerRepaint()
-resultado_resta.updateExtents()
-
-print(f"   ✅ Estilo aplicado en {time.time()-t_estilo:.1f}s")
-
-
-
+    resultado_res.setRenderer(QgsSingleSymbolRenderer(symbolresta))
+    resultado_res.triggerRepaint()
+    resultado_res.updateExtents()
+    print("✅ Estilo aplicado")
 
 
 # Cargar ecosistemas Marinos
@@ -4582,7 +4488,7 @@ eliminar_capas_vacias()
 #    QgsProject.instance().addMapLayer(csv_layer, False)
 
 # 2. Cargar la capa de veredas
-#veredas_path = '/Volumes/Disco A/Javier/Cartografia/Mapas/Zonificacion Colombia/Veredas/CRVeredas_2020.shp'
+#veredas_path = '/Users/javier/pCloud Drive/Javier/Cartografia/Mapas/Zonificacion Colombia/Veredas/CRVeredas_2020.shp'
 #vlayer = QgsVectorLayer(veredas_path, 'veredas', 'ogr')
 #if not vlayer.isValid():
 #    print("Error al cargar las veredas!")
